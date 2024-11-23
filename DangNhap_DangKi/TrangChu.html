@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRANG CHU</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Thư viện jQuery và Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <style>
+      /* CSS cho slider */
+      .banner-slide {
+        display: none;
+      }
+
+      .banner-slide.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Thanh Menu -->
+    <nav class="navbar">
+      <div class="logo">COOLMATE</div>
+      <ul class="menu">
+        <li><a href="#">SẢN PHẨM</a></li>
+        <li><a href="#">ĐỒ LÓT</a></li>
+        <li><a href="#">ĐỒ THỂ THAO</a></li>
+        <li><a href="#">MẶC HÀNG NGÀY</a></li>
+        <li><a href="#">SẢN XUẤT RIÊNG</a></li>
+      </ul>
+      <div class="search-cart">
+        <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+        <a href="#" class="account-icon">👤</a>
+        <a href="#" class="cart-icon">🛒</a>
+      </div>
+    </nav>
+
+    <div class="banner-container">
+      <div class="banner-slide">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=1920,quality=90,format=auto/uploads/November2024/Hero_Banner_-_Desktop_(6)_SL_Men_Day.jpg"
+          alt="Slide 2"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div class="banner-slide">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=1920,quality=90,format=auto/uploads/November2024/Hero_Banner_-_Desktop_SL_SSS.jpg"
+          alt="Slide 3"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div class="banner-slide">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=1920,quality=90,format=auto/uploads/November2024/Hero_Banner_-_Desktop123.jpg"
+          alt="Slide 3"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="button new-product">
+        Sản phẩm mới
+        <span class="icon">★</span>
+      </div>
+      <div class="button best-seller">Bán chạy nhất</div>
+    </div>
+    <div class="product-container">
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/April2024/QKK.EC.xamden4.jpg"
+          alt="Product 1"
+        />
+        <div class="product-name">Quần Dài Nam Kaki Excool Slim fit</div>
+        <div class="product-price">499.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/August2023/APL100-thumb-6.jpg"
+          alt="Product 2"
+        />
+        <div class="product-name">Áo Polo Nam Pique Cotton 100% Cotton</div>
+        <div class="product-price">269.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/July2024/Dobby_3.jpg"
+          alt="Product 3"
+        />
+        <div class="product-name">Áo Sơ Mi Dài Tay Premium Dobby</div>
+        <div class="product-price">539.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/July2024/Quan_Jeans_Nam_sieu_nhe.xanh_dam.jpg"
+          alt="Product 4"
+        />
+        <div class="product-name">Quần Jeans Nam siêu nhẹ Dáng Straight</div>
+        <div class="product-price">499.000đ</div>
+      </div>
+    </div>
+    <div class="additional-image">
+      <img
+        src="https://media3.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2024/mceclip0_27.jpg"
+        alt="Promotional Banner"
+        style="width: 100%; margin-top: 20px; border-radius: 8px"
+      />
+    </div>
+    <div class="product-container">
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/November2024/24CMCW.KM005_-_Navy_7.JPG"
+          alt="Product 5"
+        />
+        <div class="product-name">Áo phao dày Ultrawarm Puffer</div>
+        <div class="product-price">790.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/November2024/24CMCW.TN003_IMG_8110_XAM_3.JPG"
+          alt="Product 6"
+        />
+        <div class="product-name">Quần Jogger ECC Warp Knitting</div>
+        <div class="product-price">790.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/November2024/24CMCW.TN001_-_Den_4.JPG"
+          alt="Product 7"
+        />
+        <div class="product-name">Áo phao dày Ultrawarm Puffer</div>
+        <div class="product-price">790.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2024/24CMCW.QJ001_-_Reu_1.JPG"
+          alt="Product 8"
+        />
+        <div class="product-name">Áo phao dày Ultrawarm Puffer</div>
+        <div class="product-price">590.000đ</div>
+      </div>
+    </div>
+    <div class="additional-image">
+      <img
+        src="https://media3.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/September2024/mceclip1_9.jpg"
+        alt="Promotional Banner"
+        style="width: 100%; margin-top: 20px; border-radius: 8px"
+      />
+    </div>
+    <div class="product-container">
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/24CMAW.TT015_-_Do_2.JPG"
+          alt="Product 5"
+        />
+        <div class="product-name">Áo phao dày Ultrawarm Puffe</div>
+        <div class="product-price">790.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2024/Xanh_Neon_1.jpg"
+          alt="Product 6"
+        />
+        <div class="product-name">Quần Jogger ECC Warp Knitting</div>
+        <div class="product-price">590.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/ao_do.jpg"
+          alt="Product 7"
+        />
+        <div class="product-name">
+          Quần Jogger Pants French Terry Thoải mái và giữ ấm
+        </div>
+        <div class="product-price">379.000đ</div>
+      </div>
+      <div class="product">
+        <img
+          src="https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/xanh_duonwg.jpg"
+          alt="Product 8"
+        />
+        <div class="product-name">Áo phao dày Ultrawarm Puffer</div>
+        <div class="product-price">590.000đ</div>
+      </div>
+    </div>
+    <footer
+      style="
+        background-color: #f5f5f5;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      "
+    >
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: space-between"
+      >
+        <!-- Section: Contact -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>COOLMATE lắng nghe bạn!</h4>
+          <p>
+            Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp
+            từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt
+            hơn nữa.
+          </p>
+          <p>
+            <strong>Hotline:</strong> 1900.272737 - 028.7777.2737 (8:30 - 22:00)
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:cool@coolmate.me">cool@coolmate.me</a>
+          </p>
+        </div>
+
+        <!-- Section: Social Links -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>Theo dõi chúng tôi</h4>
+          <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.zalo.me" target="_blank">Zalo</a> |
+            <a href="https://www.tiktok.com" target="_blank">Tiktok</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+          </p>
+        </div>
+
+        <!-- Section: Coolclub -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>COOLCLUB</h4>
+          <ul style="list-style: none; padding: 0">
+            <li><a href="#">Đăng kí thành viên</a></li>
+            <li><a href="#">Ưu đãi & Đặc quyền</a></li>
+          </ul>
+        </div>
+
+        <!-- Section: Policies and Customer Care -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>Chính sách & Chăm sóc khách hàng</h4>
+          <ul style="list-style: none; padding: 0">
+            <li><a href="#">Chính sách đổi trả 60 ngày</a></li>
+            <li><a href="#">Chính sách khuyến mãi</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Chính sách giao hàng</a></li>
+          </ul>
+          <p>Trải nghiệm mua sắm 100% hài lòng</p>
+        </div>
+
+        <!-- Section: About Coolmate -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>Về COOLMATE</h4>
+          <ul style="list-style: none; padding: 0">
+            <li><a href="#">Quy tắc ứng xử của Coolmate</a></li>
+            <li><a href="#">Coolmate 101</a></li>
+            <li><a href="#">Câu chuyện về Coolmate</a></li>
+            <li><a href="#">Cam kết bền vững</a></li>
+          </ul>
+        </div>
+
+        <!-- Section: Contact Information -->
+        <div style="flex: 1; min-width: 200px; margin-bottom: 20px">
+          <h4>Địa chỉ liên hệ</h4>
+          <p>
+            <strong>Văn phòng Hà Nội:</strong> Tầng 3 Tòa nhà BMM, KM2, Đường
+            Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội
+          </p>
+          <p>
+            <strong>Trung tâm vận hành Hà Nội:</strong> Lô C8, KCN Lại Yên, Xã
+            Lại Yên, Huyện Hoài Đức, Thành phố Hà Nội
+          </p>
+          <p>
+            <strong>Văn phòng và Trung tâm vận hành TP. HCM:</strong> Lô C3,
+            đường D2, KCN Cát Lái, Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh
+          </p>
+          <p>
+            <strong>Trung tâm R&D:</strong> T6-01, The Manhattan Vinhomes Grand
+            Park, Long Bình, TP. Thủ Đức
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".banner-slide");
+
+        function showSlide(index) {
+          slides.forEach((slide, i) => {
+            slide.classList.remove("active");
+            if (i === index) {
+              slide.classList.add("active");
+            }
+          });
+        }
+
+        function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          showSlide(currentSlide);
+        }
+
+        showSlide(currentSlide); // Hiển thị slide đầu tiên
+        setInterval(nextSlide, 2000); // Chuyển ảnh mỗi 3 giây
+      });
+    </script>
+  </body>
+</html>
