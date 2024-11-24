@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* header */
+#main #header .top-header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+#main #header .top-header .logo {
+  margin-left: 30px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#main #header .top-header .menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+#main #header .top-header .menu ul li {
+  list-style: none;
+}
+#main #header .top-header .menu ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+#main #header .top-header .menu ul li a:hover {
+  color: crimson;
+}
+#main #header .top-header .search input {
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+#main #header .top-header .search button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+#main #header .top-header .search button:hover {
+  background-color: brown;
+  color: aliceblue;
+}
+/* end header */
+
+/* content */
+#main #content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.thanh-menu {
+  display: flex;
+  padding-left: 10px;
+}
+.thanh-menu p {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  color: black;
+  background-color: rgb(219, 212, 212);
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+.thanh-menu p:hover {
+  background-color: rgb(42, 42, 224);
+}
+
+#main #content .sanpham {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 100px 0;
+}
+#main #content .sanpham .item {
+  width: 20%;
+
+  text-align: center;
+  height: 400px;
+}
+#main #content .sanpham .item img {
+  width: 285px;
+  height: 300px;
+}
+
+#main #content .sanpham .item h2 {
+  font-weight: bold;
+}
+#main #content .sanpham .item h2:hover {
+  color: rgb(42, 42, 224);
+}
+
+#main #content .sanpham1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 100px 0;
+  margin-top: 5px;
+}
+#main #content .sanpham1 .item {
+  width: 20%;
+
+  text-align: center;
+  height: 400px;
+}
+#main #content .sanpham1 .item img {
+  width: 285px;
+  height: 300px;
+}
+
+#main #content .sanpham1 .item h2 {
+  font-weight: bold;
+}
+#main #content .sanpham1 .item h2:hover {
+  color: rgb(42, 42, 224);
+}
+#main #content .xemthem {
+  text-align: center;
+  border-radius: 30px;
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  width: 250px;
+  line-height: 40px;
+  margin-left: 590px;
+}
+#main #content .xemthem:hover {
+  background-color: rgb(42, 42, 224);
+}
+#main #content .hienthi {
+  text-align: center;
+  color: rgb(116, 118, 119);
+  font-size: 20px;
+  line-height: 40px;
+}
+#main #content .sanpham2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 100px 0;
+}
+#main #content .sanpham2 .item {
+  width: 20%;
+  height: 400px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#main #content .sanpham2 .item img {
+  width: 285px;
+  height: 300px;
+}
+#main #content .thamgiacoolclub {
+  background-color: blue;
+  margin-top: 0px;
+  height: 150px;
+}
+#main #content .thamgiacoolclub p {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+#main #content .thamgiacoolclub .dangki-mienphi {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+#main #content .thamgiacoolclub .dangki-mienphi:hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+#main #content .thamgiacoolclub .timhieu-dacquyen {
+  width: 290px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  margin-left: 900px;
+  margin-top: -50px;
+}
+#main #content .thamgiacoolclub .timhieu-dacquyen:hover {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+/* end content */
+
+/* footer */
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  height: 500px;
+}
+.footer-top {
+  margin-left: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-top button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.footer-top button:hover {
+  background-color: #0056b3;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.footer-column p,
+.footer-column a {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #bbb;
+  text-decoration: none;
+}
+.footer-column a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
